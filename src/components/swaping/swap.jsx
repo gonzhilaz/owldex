@@ -92,8 +92,8 @@ const Swapping = () => {
       </div>
       <div className="button-container w-full flex my-10 justify-center">
         <div className="button-wrapper w-full max-w-[70%] h-16 flex flex-row justify-center  ">
-          <div className="btn px-8 py-2 bg-gradient-to-t from-fuchsia-300 to-fuchsia-600 rounded-2xl drop-shadow-md flex items-center ">
-            <span className="text-3xl font-semibold text-white">
+          <div className="btn px-8 py-2 bg-gradient-to-t from-fuchsia-300 to-fuchsia-600 rounded-2xl drop-shadow-md flex items-center hover:drop-shadow-lg focus:drop-shadow-md">
+            <span className="text-3xl font-semibold text-white hover:text-slate-300 hover:drop-shadow-sm">
               Connect Wallet
             </span>
           </div>

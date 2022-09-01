@@ -18,7 +18,7 @@ const Footer = () => {
         <div className="column1 w-1/4 flex flex-col gap-2 ">
           <div className="logo-btnBuy flex flex-row justify-between items-center mb-4">
             <img src={Logo} alt="" className="h-[32px]  " />
-            <button className="rounded-lg bg-gradient-to-b from-fuchsia-900 to bg-fuchsia-400 px-3 py-1 text-white font-semibold text-sm">
+            <button className="rounded-lg bg-gradient-to-b from-fuchsia-900 to bg-fuchsia-400 px-3 py-1 text-white font-semibold text-sm hover:drop-shadow-md hover:-rotate-3">
               Buy FUN
             </button>
           </div>
@@ -78,11 +78,26 @@ const Footer = () => {
         </div>
       </div>
       <div className="social-icons w-full max-w-[80%] flex flex-row gap-5 mt-5  ">
-        <TelegramIcon fontSize="medium" className="text-fuchsia-900" />
-        <InstagramIcon fontSize="medium" className="text-fuchsia-900" />
-        <FacebookIcon fontSize="medium" className="text-fuchsia-900" />
-        <TwitterIcon fontSize="medium" className="text-fuchsia-900" />
-        <GitHubIcon fontSize="medium" className="text-fuchsia-900" />
+        <TelegramIcon
+          fontSize="medium"
+          className="text-fuchsia-900 hover:-rotate-45 hover:transition-all duration-300"
+        />
+        <InstagramIcon
+          fontSize="medium"
+          className="text-fuchsia-900 hover:-rotate-45 hover:transition-all duration-300 "
+        />
+        <FacebookIcon
+          fontSize="medium"
+          className="text-fuchsia-900 hover:-rotate-45 hover:transition-all duration-300 "
+        />
+        <TwitterIcon
+          fontSize="medium"
+          className="text-fuchsia-900 hover:-rotate-45 hover:transition-all duration-300 "
+        />
+        <GitHubIcon
+          fontSize="medium"
+          className="text-fuchsia-900 hover:-rotate-45 hover:transition-all duration-300 "
+        />
       </div>
     </div>
   );
